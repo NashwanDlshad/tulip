@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Rabar';
+  src: url(fonts/Rabar_023.woff);
+  font-style: normal;
+}
+
+
+body{
+    font-family:  Rabar_23 ;
+
+}
+.nf {
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    font-family:  Rabar_023 ;
+  }
+  
+  .nf:before,
+  .nf:after {
+    background-color: #424242;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+  }
+  
+  .nf:before {
+    right: 0.5em;
+    margin-left: -50%;
+  }
+  
+  .nf:after {
+    left: 0.5em;
+    margin-right: -50%;
+  }
+.homeS{
+    padding-top: 20%;
+}
+.carousel .carousel-item>img {
+    height: 80%; 
+}
+.carousel .carousel-item {
+    height: fit-content; 
+}
+.carousel .carousel-item .active {
+  min-height: fit-content !important; 
+}
+
